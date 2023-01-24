@@ -1,0 +1,50 @@
+.container-app {
+  width: 99%;
+  margin: 0 auto;
+}
+
+i {
+  margin: 0 14px;
+  font-size: 22px;
+}
+
+nav {
+  margin: 12px 0;
+  padding: 12px 14px;
+  background-color: #fff;
+  box-shadow: 2px 2px 18px -1px rgba(0, 0, 0, 0.25);
+  border-radius: 14px;
+}
+
+img {
+  width: 120px;
+  height: 40px;
+  margin-left: -10px;
+}
+
+.nav-search-bar button {
+  border: none;
+  height: 100%;
+  background-color: #0d6efd;
+  border-radius: 0 12px 12px 0;
+  padding: 0px 10px;
+}
+
+.nav-search-bar i {
+  color: #fff;
+  font-size: 18px;
+}
+
+input {
+  border: solid 1px #707070;
+  border-radius: 12px 0 0 12px;
+  padding: 6px 11px;
+  font-size: 17px;
+  font-weight: 300;
+  color: #767676;
+  overflow: hidden;
+}
+
+input[type='search']:focus {
+  outline: none;
+}
